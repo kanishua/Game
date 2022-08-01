@@ -1,4 +1,5 @@
 ﻿using System;
+using GameLibrary;
 
 namespace Game
 {
@@ -6,7 +7,9 @@ namespace Game
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Games.GameOneVsOne();
+
+            Games.GameThreeVsThree();
         }
     }
 }
